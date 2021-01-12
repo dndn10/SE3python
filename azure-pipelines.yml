@@ -23,5 +23,5 @@ steps:
 
 
 - script: |
-    python PRNParserTest.py
+    python -m unittest PRNParserTest.py
   displayName: 'pytest'
