@@ -14,9 +14,6 @@ class Book:
 
 class PRNParser:
     def ParseLine(self, line: str) -> str:
-        """
-        docstring
-        """
         if len(line) < 83:
             return ParseStatus('Incomplete')
         elif len(line) > 83:
